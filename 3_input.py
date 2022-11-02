@@ -15,5 +15,5 @@ print("Your job is: " + occupation)
 print(f"Your first name is {first_name} and your job is {occupation}")
 
 # handling non-string input
-age = input("Please enter your age: ")
+age = int(input("Please enter your age: "))
 print(f"In two years your age will be {age+2} ")
