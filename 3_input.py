@@ -13,3 +13,7 @@ print("Your job is: " + occupation)
 
 # another way of outputting information in python is through formatted strings
 print(f"Your first name is {first_name} and your job is {occupation}")
+
+# handling non-string input
+age = input("Please enter your age: ")
+print(f"In two years your age will be {age+2} ")
